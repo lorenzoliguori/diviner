@@ -3,9 +3,9 @@ Simple Django APP
 
 How to deploy the app on a Ubuntu 16.04 server.
 
-##Install Python 3.7.0 on Ubuntu 16.04
+Install Python 3.7.0 on Ubuntu 16.04
 
-#Step 1 – Prerequsiteis
+Step 1 – Prerequsiteis
 
 Use the following command to install prerequisites for Python before installing it.
 ```
