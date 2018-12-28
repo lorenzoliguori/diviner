@@ -1,0 +1,11 @@
+[Unit]
+Description=Dango Application service By Saiful
+After=network.target
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/invest
+ExecStart=/var/www/invest/.venv/bin/gunicorn --workers 2 --bind 127.0.0.1:8000 invest.wsgi
+[Install]
+WantedBy=multi-user.target
+
