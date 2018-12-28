@@ -64,7 +64,7 @@ vim /etc/systemd/system/dango.service
 ```
 ```
 [Unit]
-Description=Dango Application service By Saiful
+Description=Django Application service By Saiful Islam Rokon
 After=network.target
 [Service]
 User=www-data
