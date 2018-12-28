@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Retire</title>
+  </head>
+  <body>
+      <a href="/diviner">Home</a> </br>    
+      <a href="/diviner/invest_home">Invest</a> </br>
+      <a href="/diviner/retire_home">Retire</a> </br>
+      <a href="/diviner/commit_home">Commit</a> </br>        
+    <h1>Retirement Date Calculator</h1>
+      <form action="/diviner/retire_request/" method="GET">
+          {{ form.as_p }}
+          <button type="submit" class="save btn btn-default">Retire</button>
+      </form>
+  </body>
+</html>

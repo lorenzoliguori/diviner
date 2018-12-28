@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Invest</title>
+  </head>
+  <body>
+      <a href="/diviner">Home</a> </br>
+      <a href="/diviner/invest_home">Invest</a> </br>
+      <a href="/diviner/retire_home">Retire</a> </br>
+      <a href="/diviner/commit_home">Commit</a> </br>            
+    <h1>Retireme Result</h1>
+        If you want to earn a stable income of {{ retire_input.income_for_life }} €, if you invest today {{ retire_input.initial_investment }} € and then you invest every year {{ retire_input.annual_investment }} € at an average yearly interest rate of {{ retire_input.annual_interest_rate }}, then: </br></br>
+        You can retire in <b>{{ retire_result.years }}</b> years, <b>{{ retire_result.months }}</b> months and <b>{{ retire_result.days }}</b> days.</br>
+        Your exact retirement date will be <b>{{ retire_result.exact_date }}</b>.
+  </body>
+
+</html>

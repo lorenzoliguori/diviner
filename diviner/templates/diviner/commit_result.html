@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Commit</title>
+  </head>
+  <body>
+      <a href="/diviner">Home</a> </br>
+      <a href="/diviner/invest_home">Invest</a> </br>
+      <a href="/diviner/retire_home">Retire</a> </br>
+      <a href="/diviner/commit_home">Commit</a> </br>            
+    <h1>Commit Result</h1>
+        To retire in {{ commit_input.years }} years and earn a stable income for life of {{ commit_input.income_for_life }} €, considering an initial investment of {{ commit_input.initial_investment }} € and an average yearly interest rate of {{ commit_input.annual_interest_rate }}, you should invest: </br></br>
+        A total capital of <b>{{ commit_result.total_invested_capital }}</b> €, that is a yearly investment of <b>{{ commit_result.annual_invested_capital }}</b> € and a monthly investment of <b>{{ commit_result.monthly_invested_capital }}</b> €.
+  </body>
+
+</html>

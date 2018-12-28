@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Invest</title>
+  </head>
+  <body>
+      <a href="/diviner">Home</a> </br>
+      <a href="/diviner/invest_home">Invest</a> </br>
+      <a href="/diviner/retire_home">Retire</a> </br>
+      <a href="/diviner/commit_home">Commit</a> </br>            
+    <h1>Invest Result</h1>
+        If you invest today {{ invest_input.initial_investment }} € and then you invest every year {{ invest_input.annual_investment }} € for {{ invest_input.years }} years at a yearly rate of {{ invest_input.annual_interest_rate }} monthly compounded, you will end up with: </br></br>
+        Invested capital: <b>{{ invest_result.invested_capital }}</b> € </br>
+        Future value of invested capital: <b>{{ invest_result.future_capital }}</b> € </br>
+        Capital gain: <b>{{ invest_result.capital_gain }}</b> € </br>
+        Income for life: <b>{{ invest_result.income_for_life }}</b> € </br>
+        Total return: <b>{{ invest_result.total_return }}</b>
+  </body>
+
+</html>
