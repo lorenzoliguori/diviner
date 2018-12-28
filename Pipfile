@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "2.1"
 gunicorn = "*"
+django = "==2.1"
+python-dateutil = "*"
 
 [requires]
 python_version = "3.7"
-
