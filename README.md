@@ -11,12 +11,13 @@ sudo apt-get install build-essential checkinstall
 sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
 ```
 Step 2 – Download Python 3.7
+
 ```
 cd /usr/src
 sudo wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
-````
+```
 Now extract the downloaded package.
-````
+```
 sudo tar xzf Python-3.7.0.tgz
 ```
 Step 3 – Compile Python Source
@@ -32,7 +33,7 @@ Step 4 – Check Python Version
 Check the latest version installed of python using below command
 ```
 python3.7 -V
-````
+```
 Python-3.7.0
 
 Install Pipenv package useing pip3 
@@ -107,7 +108,7 @@ Restart Nginx and django service for applying configration
 ```
 service nginx restart
 service django restart
-````
+```
 Enable both service on Startup
 
 ```
